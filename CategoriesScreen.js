@@ -1,3 +1,5 @@
+import { colors } from "./Styles/colors"
+
 const CategoriesScreen=({handleCategory})=>{
 const[input, setInput]=useState("")
 const handleErase=()=>{setInput("")}
@@ -54,7 +56,7 @@ const styles=StyleSheet.create({
         width:'80%',
         padding:10,
         margin:10,
-        backgroundColor:'black',
+        backgroundColor:colors.blue,
         borderRadius:10,
         color:'white',
         height:50,

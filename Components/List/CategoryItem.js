@@ -15,7 +15,7 @@ const styles=StyleSheet.create({
         justifyContent:'flex-end',
         alignItems:'flex-end',
         padding:15,
-        backgroundColor:colors.blue,
+        backgroundColor:colors.lighterblue,
         margin:15,
         borderRadius:10,
     },

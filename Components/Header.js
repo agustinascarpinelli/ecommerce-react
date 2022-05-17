@@ -9,7 +9,7 @@ export default Header;
 
 const styles=StyleSheet.create({
     container:{
-        backgroundColor:colors.darkblue,
+        backgroundColor:colors.lighterBlue,
         height:80,
         width:'100%',
         justifyContent:'center',
